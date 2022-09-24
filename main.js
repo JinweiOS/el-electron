@@ -10,9 +10,9 @@ function createWindow() {
         height: 600
     })
     // 这个窗口渲染什么文件
-    // window.loadFile('index.html')
+    window.loadFile('index.html')
     // 加载本地的vue项目
-    window.loadURL('http://localhost:8080/')
+    // window.loadURL('http://localhost:8080/')
 }
 
 // 在app ready之后，调用创建窗口函数启动应用
